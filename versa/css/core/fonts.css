@@ -1,0 +1,42 @@
+@charset "UTF-8";
+/* CSS Document */
+/*
+* (es) Estilos Para Fuentes
+* (en) Fonts Stylesheet
+*
+* @creator DAN
+* @project Nissan - Precios especiales
+* @file fonts.css
+* @9/FEB/2016
+*/
+
+/*  NISSAN BOLD */
+@font-face {
+    font-family: 'NissanBold';
+    src: url('../../fonts/NissanBrandBold.eot');
+    src: url('../../fonts/NissanBrandBold.eot') format('embedded-opentype'),
+    url('../../fonts/NissanBrandBold.woff') format('woff'),
+    url('../../fonts/NissanBrandBold.ttf') format('truetype'),
+    url('../../fonts/NissanBrandBold.svg#NissanBold') format('svg');
+    font-weight: normal;
+}
+/*  NISSAN MEDIUM */
+@font-face {
+    font-family: 'NissanMedium';
+    src: url('../../fonts/NissanBrandRegular.eot');
+    src: url('../../fonts/NissanBrandRegular.eot') format('embedded-opentype'),
+    url('../../fonts/NissanBrandRegular.woff') format('woff'),
+    url('../../fonts/NissanBrandRegular.ttf') format('truetype'),
+    url('../../fonts/NissanBrandRegular.svg#NissanMedium') format('svg');
+    font-weight: normal;
+}
+/*  NISSAN REGULAR */
+@font-face {
+    font-family: 'NissanRegular';
+    src: url('../../fonts/NissanBrandRegular.eot');
+    src: url('../../fonts/NissanBrandRegular.eot') format('embedded-opentype'),
+    url('../../fonts/NissanBrandRegular.woff') format('woff'),
+    url('../../fonts/NissanBrandRegular.ttf') format('truetype'),
+    url('../../fonts/NissanBrandRegular.svg#NissanRegular') format('svg');
+    font-weight: normal;
+}

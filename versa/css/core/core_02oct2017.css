@@ -1,0 +1,281 @@
+/*************************************
+ * @general stuffs
+*************************************/
+
+.hidden {
+  position: absolute;
+  left: -999em;
+  /*LTR*/
+  top: -999em;
+}
+
+.clear {
+  clear: both;
+}
+
+em {
+  color: #ED802E;
+  font-weight: bold;
+}
+
+strong {
+  font-weight: bold;
+}
+
+a, select, input, textarea {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+sup {
+  font-size: 8px;
+  vertical-align: super;
+}
+
+h2 sup {
+  font-size: 24px;
+}
+
+.clearer {
+  clear: both;
+  display: block;
+  margin: 0;
+  padding: 0;
+  height: 0;
+  line-height: 1px;
+  font-size: 1px;
+}
+
+b {
+  font-weight: bold;
+}
+
+.underlined {
+  text-decoration: underline;
+}
+
+/*************************************
+ * @web style
+*************************************/
+
+body {
+  background: #000 url(../../img/background.jpg) no-repeat center top;
+  color: #e4e4e4;
+  font: normal 80% "NissanRegular", helvetica, arial, sans-serif;
+}
+
+#wrapper {
+  width: 980px;
+  /*height: 800px;/**/
+  margin: 0 auto;
+  background: #000 url(../../img/background.jpg) no-repeat center top;
+}
+
+.container {
+  width: 980px;
+  margin: 0 auto;
+}
+
+/*  ------------------  header  ------------------- */
+
+header .container {
+  padding-top: 1px;
+  height: 179px;
+  position: relative;
+}
+
+#logoContainer, #logo {
+  width: 139px;
+  height: 171px;
+}
+
+#logoContainer {
+  position: absolute;
+  top: -1px;
+  left: 25px;
+}
+
+#menuSocial {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+}
+
+#menuSocial a {
+  margin-left: 5px;
+}
+
+h1, h2, .generalIntro {
+  margin-left: 220px;
+}
+
+h1 {
+  font-size: 28px;
+  font-family: "NissanBold", Helvetica, Arial, Sans-serif;
+  font-weight: normal;
+  margin-top: 85px;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 18px;
+  font-family: "NissanBold", Helvetica, Arial, Sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.generalIntro {
+  margin-top: 15px;
+}
+
+/*  ------------------  contenido  ------------------- */
+
+.intro {
+  font-family: "NissanMedium", Helvetica, Arial, Sans-serif;
+  font-weight: normal;
+  line-height: 17px;
+}
+
+section.mainContent {
+  width: 412px;
+  height: 400px;
+  margin: 38px 0 0 568px;
+  text-align: center;
+}
+
+table {
+  width: 412px;
+  margin: 20px auto 0;
+  border-spacing: 0 !important;
+}
+
+tr {
+  display: block;
+  width: inherit;
+  height: 34px;
+  line-height: 33px;
+}
+
+td {
+  display: inline-block;
+  text-align: left;
+  text-indent: 12px;
+}
+
+td.col1 {
+  width: 250px;
+  padding-left: 35px;
+  color: black;
+}
+
+td.col2 {
+  width: 100px;
+  padding-left: 0px;
+}
+
+thead tr {
+  height: 35px;
+  line-height: 33px;
+  background-image: url(../../img/bg_head_row.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  font-size: 17px;
+  background-color: #FFFFFF;
+  opacity: 0.8;
+  color: black;
+  font-weight: bold;
+}
+
+thead td {
+  font-family: "NissanMedium", Helvetica, Arial, Sans-serif;
+  font-weight: bold;
+}
+
+tbody tr {
+  font-size: 12px;
+  background-image: url(../../img/bg_row.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+thead tr, td.col2 {
+  color: black;
+}
+
+#btn_consulta {
+  display: block;
+  margin: 20px auto 0;
+}
+
+#btn_consulta, #btn_consulta img {
+  width: 293px;
+  height: 31px;
+}
+
+#validity {
+  margin-top: 7px;
+  font-size: 11px;
+}
+
+#disclaimer {
+  margin-top: 3px;
+  font-size: 11px;
+  font-family: "NissanMedium", Helvetica, Arial, Sans-serif;
+  font-weight: normal;
+}
+
+/*  ------------------  footer  ------------------- */
+
+footer {
+  background: url(../../img/bg_footer.png) center no-repeat;
+  height: 34px;
+}
+
+footer p {
+  height: 34px;
+  line-height: 34px;
+  width: 50%;
+  float: left;
+}
+
+footer p, footer a {
+  font-size: 10px;
+  font-family: "NissanBold", Helvetica, Arial, Sans-serif;
+  font-weight: normal;
+  color: #e4e4e4;
+  text-transform: uppercase;
+}
+
+footer p.copyright {
+  text-align: right;
+}
+
+footer p.legalTxt {
+  clear: both;
+  font: 10px/12px 'NissanRegular', Helvetica, Verdana, sans-serif;
+  color: #e4e4e4;
+  width: 100%;
+  margin: 20px auto;
+  padding: 0;
+  text-align: justify;
+  text-transform: none;
+  float: none;
+  height: auto;
+}
+
+/*
+.trans {
+  opacity: 10;
+}
+  */
+
+.tabla {
+  background-color: #FFFFFF;
+  opacity: 0.8;
+  color: black;
+  font-weight: bold;
+}
